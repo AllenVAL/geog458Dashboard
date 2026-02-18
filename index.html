@@ -3,26 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Percent of People of Color in Seattle Neighborhoods</title>
+    <title>Percent of People of Color and educational inequality in Seattle Neighborhoods</title>
 
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 
-    <!-- Google fonts -->
+
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
-
-    <!-- Mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
-
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-    <!-- Chart -->
     <link rel="stylesheet" href="css/c3.min.css">
-
-    <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Scripts -->
+
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
     <script src="js/d3.js"></script>
     <script src="js/c3.min.js"></script>
@@ -31,27 +23,15 @@
 
 <body>
 
-    <!-- Sidebar -->
+
     <div id="info">
 
-        <!-- TITLE -->
         <div id="title">
 
-            Percent of People of Color in Seattle Neighborhoods
-
-            <span>
-                <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">
-                    <i class="bi bi-github"></i>
-                </a>
-            </span>
-
-            <span id="reset">
-                <a href="#">Reset</a>
-            </span>
+            Percent of People of Color and educational inequality in Seattle Neighborhoods
 
         </div>
 
-        <!-- KPI CARD -->
         <div id="count" class="card">
 
             <h5 id="desc">
@@ -64,36 +44,36 @@
 
         </div>
 
-        <!-- CHART -->
         <div id="earthquake-chart"></div>
 
-        <!-- DESCRIPTION -->
         <div id="footer">
-
-            This smart dashboard visualizes the percent of people of color across Seattle neighborhoods using American Community Survey (ACS) data. The choropleth map highlights spatial variation in racial diversity, allowing comparison between different neighborhoods.
-
-            <br><br>
-
-            Hover over a neighborhood to view its percentage of people of color. The chart updates dynamically based on your selection.
+            This smart dashboard maps the percent of people of color across Seattle neighborhoods (choropleth). 
+            To add context, the dashboard also shows two related neighborhood indicators from ACS: 
+            (1) percent of households with limited English, and 
+            (2) percent of residents with less than a high school education.
 
             <br><br>
 
-            Data Source: Seattle GeoData (ACS Neighborhood Indicators)
+            Hover over a neighborhood to see all three indicators and compare them in the bar chart. 
+            The map colors represent % People of Color, while the chart provides a quick multi-metric profile for the selected area.
+            This project is intended to reveal the corelation between racial distribution and educational inequality.
+
+            <br><br>
+
+            Data Source: Seattle GeoData (Top 50 ACS Neighborhood Indicators)
+
 
         </div>
 
     </div>
 
 
-    <!-- Map container -->
     <div id="map"></div>
 
 
-    <!-- Legend -->
     <div id="legend"></div>
 
 
-    <!-- Main JS -->
     <script src="js/main.js"></script>
 
 </body>
