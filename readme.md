@@ -52,7 +52,7 @@ This dashboard includes multiple interactive visualization components:
 - Uses a blue color gradient from low to high values
 - Enables spatial comparison across Seattle
 
-### 2. Interactive Chart (C3.js)
+### 2. Interactive Chart
 - Shows three indicators:
   - Percent of People of Color
   - Percent of Limited English Households
