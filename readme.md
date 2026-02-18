@@ -1,5 +1,14 @@
 # Smart Dashboard: Percent of People of Color and Educational Inequality in Seattle Neighborhoods
 
+## AI disclosure
+
+AI is used in this project for:
+
+- Debugging
+- Finding avaliable dataset online
+
+I did not use AI to write or complete any components where AI use is prohibited. If AI was used for debugging or development, I am able to explain the relevant code and decisions
+
 ## Overview
 
 This smart dashboard visualizes spatial patterns of racial and educational inequality across Seattle neighborhoods using American Community Survey (ACS) data. The choropleth map shows the percent of people of color, while the interactive chart and information panel provide additional neighborhood indicators related to language access and educational attainment.
@@ -78,9 +87,4 @@ Users can:
 - Compare multiple social indicators using the chart
 - Reset the map view using the reset button
 
-## AI disclosure
 
-AI is used in this project for:
-
-- Debugging
-- Finding avaliable dataset online
