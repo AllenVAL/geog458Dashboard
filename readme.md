@@ -82,5 +82,5 @@ Users can:
 
 AI is used in this project for:
 
-- Debugs
+- Debugging
 - Finding avaliable dataset online
