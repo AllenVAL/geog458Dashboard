@@ -25,7 +25,7 @@ https://allenval.github.io/geog458Dashboard/
 ## Data Source
 
 Seattle GeoData – Top 50 American Community Survey Neighborhood Indicators  
-https://data-seattlecitygis.opendata.arcgis.com/
+https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS%3A%3Aseattle-neighborhoods-top-50-american-community-survey-data/
 
 Variables used:
 
