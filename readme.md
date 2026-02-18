@@ -12,7 +12,7 @@ Users can hover over a neighborhood to dynamically view and compare multiple soc
 
 View the dashboard here:
 
-https://AllenVAL.github.io/geog458Dashboard/
+https://allenval.github.io/geog458Dashboard/
 
 ---
 
@@ -77,8 +77,3 @@ Users can:
 - Hover over neighborhoods to view detailed data
 - Compare multiple social indicators using the chart
 - Reset the map view using the reset button
-
----
-
-## File Structure
-
