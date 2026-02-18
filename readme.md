@@ -85,6 +85,6 @@ Users can:
 
 - Hover over neighborhoods to view detailed data
 - Compare multiple social indicators using the chart
-- Reset the map view using the reset button
+
 
 
